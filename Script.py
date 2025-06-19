@@ -1,11 +1,12 @@
 class script(object):
-    START_TXT = """<b>𝖧𝖾𝗒 {}, 𝖨 𝖠𝗆 <a href=https://t.me/{}>{}</a>, 𝖧𝖺𝗉𝗉𝗒 🖤 𝖳𝗈 𝖧𝖺𝗏𝖾 𝖸𝗈𝗎
+    START_TXT = """𝖸𝗈...𝖸𝗈... {} 💖
 
-Here You Can Request Movie's, Just Sent <a href='https://t.me/mcu_Mammootty_bot'>Movie Name</a> With Proper <a href='https://www.google.com/'>Google</a> Spelling..!!
+<b><u>𝖨'𝗆 𝖯𝗈𝗐𝖾𝗋𝖿𝗎𝗅 𝖠𝗎𝗍𝗈-𝖥𝗂𝗅𝗍𝖾𝗋 𝖡𝗈𝗍 𝖸𝗈𝗎 𝖢𝖺𝗇 𝖴𝗌𝖾 𝖬𝖾 𝖠𝗌 𝖠 𝖠𝗎𝗍𝗈-𝖿𝗂𝗅𝗍𝖾𝗋 𝗂𝗇 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉</u></b>
 
-Fᴏʀ Mᴏʀᴇ Dᴇᴛᴀɪʟꜱ Cʟɪᴄᴋ /help
+<i>𝖨𝗍𝗌 𝖤𝖺𝗌𝗒 𝖳𝗈 𝖴𝗌𝖾 𝖬𝖾; 𝖩𝗎𝗌𝗍 𝖠𝖽𝖽 𝖬𝖾 𝖳𝗈 𝖸𝗈𝗎𝗋 𝖦𝗋𝗈𝗎𝗉 𝖠𝗌 𝖠𝖽𝗆𝗂𝗇, 
+𝖳𝗁𝖺𝗍𝗌 𝖠𝗅𝗅, 𝗂 𝗐𝗂𝗅𝗅 𝖯𝗋𝗈𝗏𝗂𝖽𝖾 𝖬𝗈𝗏𝗂𝖾𝗌 𝖳𝗁𝖾𝗋𝖾...🤓🤪</i>
 
-Cᴏɴᴛᴀᴄᴛ Bᴏᴛ Dᴇᴠᴇʟᴏᴘᴇʀ (Oʀ) Rᴇᴘᴏʀᴛ Bᴜɢꜱ..!! 👉 @MCU_ADMIN_V1_BOT</b>"""
+<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @Farook13</b>"""
 
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>
@@ -62,7 +63,7 @@ Name - {}
 {file_caption}
 
 ╔═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╗ 
-➲ <a href='t.me/MCUupdatesLINKS'>@OTT UPDTES</a>
-➲ <a href='https://t.me/+uA5gEKm8WXk1ZTll'>@MAIN CHANNEL</a>
+➲ <a href='https://t.me/batmancineflix'>@batmancineflix</a>
+➲ <a href='https://t.me/batmancineflix'>@batmancineflix</a>
 ╚═══ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ═══╝
 </b>"""

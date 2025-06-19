@@ -16,7 +16,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'autodelete')
 API_ID = int(environ.get("API_ID", "19071424"))
 API_HASH = environ.get("API_HASH", "c4b3e298cc50fd4cc563ae75ee882948")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7752302892:AAGqpaXAS5wDKsptuWaikkaEQAPbUd8Bwf8")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7693803634:AAErirlVX-Y_XKPEdaNKbN_0UK4hVXSLkAk")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -25,13 +25,13 @@ PICS = (environ.get('PICS', 'https://telegra.ph/file/7e56d907542396289fee4.jpg h
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '[5032034594]').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002521243999 -100246714951').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002335002662').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
-NORES_CHANNEL = environ.get("NORES_CHANNEL", '-1002409266981')
+NORES_CHANNEL = environ.get("NORES_CHANNEL", '-1002332361885')
 
 REQ_CHANNEL1=environ.get("REQ_CHANNEL1")
 REQ_CHANNEL1 = (int(REQ_CHANNEL1) if REQ_CHANNEL1 and id_pattern.search(REQ_CHANNEL1) else False) if REQ_CHANNEL1 is not None else None
@@ -39,11 +39,11 @@ REQ_CHANNEL2=environ.get("REQ_CHANNEL2")
 REQ_CHANNEL2 = (int(REQ_CHANNEL2) if REQ_CHANNEL2 and id_pattern.search(REQ_CHANNEL2) else False) if REQ_CHANNEL2 is not None else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://saidalimuhamed88:iladias2025@cluster0.qt4dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://saidalimuhamed88:iladias2025@cluster0.qt4dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://saidalimuhamed88:iladias2025@cluster0.qt4dv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://farook:farook@cluster0.aaed9bf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI2 = environ.get('DATABASE_URI2', "mongodb+srv://daddybro:daddybro@cluster0.lw0tu70.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI3 = environ.get('DATABASE_URI3', "mongodb+srv://Nigga:nigga@cluster0.neynray.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'mcu_files')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'TELEGRAM_FILES')
 
 #Auto approve
 
@@ -55,9 +55,9 @@ pyroutils.MIN_CHAT_ID = -999999999999
 pyroutils.MIN_CHANNEL_ID = -100999999999999
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-100233236188"))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', "-1002332361885"))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-0').split()]
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'mcumovies')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cine_flix01')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)

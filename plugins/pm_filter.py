@@ -390,7 +390,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             return
         if REQ_CHANNEL2 and not await is_requested_two(client, query):
            await query.answer("📢 Kindly rejoin Update Channel 2 and then press 🔄 Try Again to receive your movie file 🎬 | ❤️ If prompted, join both channels and wait 5 seconds.", show_alert=True)
-            return
+           return
         ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:

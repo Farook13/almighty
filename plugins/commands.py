@@ -155,7 +155,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔄 Try Again 🔄", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         sh = await client.send_message(
             chat_id=message.from_user.id,
-            text="**📢 സിനിമ ലഭിക്കാൻ ഞങ്ങളുടെ 🔔 UPDATE CHANNEL 🔔 JOIN ചെയ്യുക, ശേഷം 🔄 Try Again 🔄 അമർത്തൂ – ഉടൻ ഫയൽ ലഭിക്കും! 🗂️**"",
+           text="**📢 സിനിമ ലഭിക്കാൻ ഞങ്ങളുടെ 🔔 UPDATE CHANNEL 🔔 JOIN ചെയ്യുക, ശേഷം 🔄 Try Again 🔄 അമർത്തൂ – ഉടൻ ഫയൽ ലഭിക്കും! 🗂️**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -184,7 +184,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("Try Again", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         sh = await client.send_message(
             chat_id=message.from_user.id,
-            text="**📢 സിനിമ ലഭിക്കാൻ ഞങ്ങളുടെ 🔔 UPDATE CHANNEL 🔔 JOIN ചെയ്യുക, ശേഷം 🔄 Try Again 🔄 അമർത്തൂ – ഉടൻ ഫയൽ ലഭിക്കും! 🗂️**"",
+            text="**📢 സിനിമ ലഭിക്കാൻ ഞങ്ങളുടെ 🔔 UPDATE CHANNEL 🔔 JOIN ചെയ്യുക, ശേഷം 🔄 Try Again 🔄 അമർത്തൂ – ഉടൻ ഫയൽ ലഭിക്കും! 🗂️**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
         )
@@ -361,7 +361,7 @@ async def start(client, message):
         file_id=file_id,
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
-        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🌀 ഉർവശി തീയറ്റേഴ്‌സ് 🌀', url='https://t.me/+RBNuafky0to1NDc1')            
+        reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton('🌀 🎥 𝘾𝙄𝙉𝙀 𝙁𝙇𝙄𝙓. ✨ 🌀', url='https://t.me/+G9rma5O6qmQxOTll')            
             ]])
     )
     k = await xd.reply(text=f"<blockquote><b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nᴛʜɪs ᴍᴇssᴀɢᴇ ᴡɪʟʟ ʙᴇ ᴅᴇʟᴇᴛᴇᴅ ɪɴ <b><u>10 mins</u> 🫥 <i></b>(ᴅᴜᴇ ᴛᴏ ᴄᴏᴘʏʀɪɢʜᴛ ɪssᴜᴇs)</i>.\n\n<b><i>ᴘʟᴇᴀsᴇ ғᴏʀᴡᴀʀᴅ ᴛʜɪs ᴍᴇssᴀɢᴇ ᴛᴏ ʏᴏᴜʀ sᴀᴠᴇᴅ ᴍᴇssᴀɢᴇs ᴏʀ ᴀɴʏ ᴘʀɪᴠᴀᴛᴇ ᴄʜᴀᴛ.</i></b></blockquote>")

@@ -7,7 +7,7 @@ class script(object):
 ➤ I’ll automatically respond with movies when someone searches.</i>
 """
 
-<b>😎 𝖯𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @Farook13</b>"""
+<b> 𝗈𝗐𝖾𝗋𝖾𝖽 𝖻𝗒 @Farook13</b>"""
 
     STATUS_TXT = """★ 𝚃𝙾𝚃𝙰𝙻 𝙵𝙸𝙻𝙴𝚂: <code>{}</code>
 ★ 𝚃𝙾𝚃𝙰𝙻 𝚄𝚂𝙴𝚁𝚂: <code>{}</code>

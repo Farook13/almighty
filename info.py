@@ -35,7 +35,7 @@ NORES_CHANNEL = environ.get("NORES_CHANNEL", '-1002332361885')
 
 REQ_CHANNEL1=environ.get("-1002560150032")
 REQ_CHANNEL1 = (int(REQ_CHANNEL1) if REQ_CHANNEL1 and id_pattern.search(REQ_CHANNEL1) else False) if REQ_CHANNEL1 is not None else None
-REQ_CHANNEL2=environ.get("REQ_CHANNEL2")
+REQ_CHANNEL2=environ.get("-1002335002662")
 REQ_CHANNEL2 = (int(REQ_CHANNEL2) if REQ_CHANNEL2 and id_pattern.search(REQ_CHANNEL2) else False) if REQ_CHANNEL2 is not None else None
 
 # MongoDB information

